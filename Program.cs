@@ -17,7 +17,7 @@ using (HttpClient client = new HttpClient())
 
         var musicasPreferidasDoJungkook = new MusicasPreferidas("Jungkook");
         
-        sicasPreferidasDoJungkook.AdicionarMusicasFavoritas(musicas[1]);
+        musicasPreferidasDoJungkook.AdicionarMusicasFavoritas(musicas[1]);
         musicasPreferidasDoJungkook.AdicionarMusicasFavoritas(musicas[377]);
         musicasPreferidasDoJungkook.AdicionarMusicasFavoritas(musicas[4]);
         musicasPreferidasDoJungkook.AdicionarMusicasFavoritas(musicas[6]);
